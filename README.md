@@ -32,4 +32,4 @@ Using CSS for styling this webpage. While using new techniques learned like "gri
 **Github**
 
 This project can be reached by accessing the github repository.
-[Link to the project on Github](git@github.com:kylewelchner/se_project_spots.git)
+[Link to the project on Github](https://kylewelchner.github.io/se_project_spots/))

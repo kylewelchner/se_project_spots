@@ -57,10 +57,12 @@
   opacity: 70%;
   display: flex;
   gap: 8px;
+  transition: opacity 0.5s;
 }
 
 .profile__edit-button:hover {
   cursor: pointer;
+  opacity: 50%;
 }
 
 .profile__add-button {
@@ -76,12 +78,12 @@
   line-height: 1;
   display: flex;
   justify-content: space-between;
-  transition: background-color 0.5s;
+  transition: opacity 0.5s;
 }
 
 .profile__add-button:hover {
   cursor: pointer;
-  background-color: rgb(44, 54, 75);
+  opacity: 70%;
 }
 
 @media screen and (max-width: 627px) {

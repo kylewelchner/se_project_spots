@@ -33,3 +33,8 @@ Using CSS for styling this webpage. While using new techniques learned like "gri
 
 This project can be reached by accessing the github repository.
 [Link to the project on Github](https://kylewelchner.github.io/se_project_spots/))
+
+**Description Video**
+
+A small video briefly detailing techniques I've used can be found here.
+[Link to the video](https://www.loom.com/share/7493386a7253443795ca5eacec46b8ea))

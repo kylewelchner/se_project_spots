@@ -42,6 +42,12 @@
   opacity: 40%;
   background: transparent;
   border: none;
+  transition: opacity 0.5s;
+}
+
+.modal__close-button:hover {
+  cursor: pointer;
+  opacity: 100%;
 }
 
 .modal__title {

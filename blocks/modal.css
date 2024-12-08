@@ -145,11 +145,7 @@
   .modal__container {
     padding: 12px;
   }
-
-  .modal__container_type_preview {
-   
-  }
-
+  
   .modal__title {
     font-size: 20px;
     margin: 10px 0 34px;
@@ -161,7 +157,8 @@
   }
 
   .modal__close_type_preview {
-    
+    top: -32.5px;
+    right: 62px;
   }
 
   .modal__label {
@@ -175,4 +172,10 @@
   .modal__submit-button {
     width: 100%;
   }
+
+  .modal__caption {
+    font-size: 16px;
+    line-height: 19.2px;
+  }
+  
 }

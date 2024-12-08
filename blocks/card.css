@@ -59,6 +59,7 @@
 
 .card__discard-button {
   background-image: url("../images/discard.svg");
+  background-position: center;
   background-color: transparent;
   border: none;
   height: 32px;
@@ -105,5 +106,10 @@
     height: 18px;
     background-size: contain;
     background-repeat: no-repeat;
+  }
+
+  .card__discard-button {
+    top: 10px;
+    left: 246px;
   }
 }

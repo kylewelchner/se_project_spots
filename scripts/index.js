@@ -54,7 +54,7 @@ const cardLinkInput = cardModal.querySelector("#add-card-link-input");
 const previewModal = document.querySelector("#preview-modal");
 const previewModalImageElement = previewModal.querySelector(".modal__image");
 const previewModalCaptionElement = previewModal.querySelector(".modal__caption");
-const previewModalCloseButton = previewModal.querySelector(".modal__close_type_preview");
+const previewModalCloseButton = previewModal.querySelector(".modal__close-button_type_preview");
 
 const cardTemplate = document.querySelector("#card-template");
 const cardsList = document.querySelector(".cards__list");
@@ -86,7 +86,7 @@ cardImageElement.addEventListener("click", () => {
   openModal(previewModal);
   previewModalCaptionElement.textContent = data.name;
   previewModalImageElement.src = data.link;
-  previewModalCaptionElement.alt = data.alt;
+  previewModalImageElement.alt = data.alt;
 })
 
   return cardElement;
@@ -114,7 +114,8 @@ const inputValues = { name: cardNameInput.value, link: cardLinkInput.value, alt:
 const cardElement = getCardElement(inputValues);
 
   cardsList.prepend(cardElement);
-
+  cardForm.reset();
+  closeModal(cardModal);
 }
 
 profileEditButton.addEventListener("click", () => {
